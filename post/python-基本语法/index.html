@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https://cshi11.github.io/"
+        },
+        "articleSection" : "post",
+        "name" : "Python 基本语法",
+        "headline" : "Python 基本语法",
+        "description" : "Individual meta description for this post",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2016",
+        "datePublished": "2016-11-05 19:41:01 &#43;0530 &#43;0530",
+        "dateModified" : "2016-11-05 19:41:01 &#43;0530 &#43;0530",
+        "url" : "https://cshi11.github.io/post/python-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/",
+        "wordCount" : "947",
+        "image" : https://cshi11.github.io/img/portfolio/pylogo.jpg",
+        "keywords" : [ "Blog" ]   
+    }
+    </script>
+
+
+ <title>Python 基本语法 </title>
+
+
+<meta name="description" content="Individual meta description for this post" />
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<link rel="stylesheet" id="ct-tracks-google-fonts-css" href="//fonts.googleapis.com/css?family=Raleway%3A400%2C700&amp;subset=latin%2Clatin-ext&amp;ver=4.7.2" type="text/css" media="all">
+<link rel="stylesheet" href="https://cshi11.github.io/css/font-awesome.min.css" type='text/css' media='all'>
+
+<link href="https://cshi11.github.io/css/style.css" rel="stylesheet" id="theme-stylesheet" type='text/css' media='all'>
+
+<link href="https://cshi11.github.io/css/custom.css" rel="stylesheet" type='text/css' media='all'>
+<link rel="shortcut icon" href="https://cshi11.github.io/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="https://cshi11.github.io/img/favicon.ico" type="image/x-icon">
+
+
+</head>
+
+
+<body class="post-template-default single single-post single-format-standard ct-body singular singular-post not-front standard">
+
+  <div id="overflow-container" class="overflow-container">
+    <a class="skip-content" href="#main">Skip to content</a>
+    <header id="site-header" class="site-header" role="banner">
+      <div class='top-navigation'>
+        <div class='container'>
+
+  <div id="menu-secondary" class="menu-container menu-secondary" role="navigation">
+    <button id="toggle-secondary-navigation" class="toggle-secondary-navigation"><i class="fa fa-plus"></i></button>
+
+    <div class="menu">
+
+      <ul id="menu-secondary-items" class="menu-secondary-items">
+        
+        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
+          <a href="https://cshi11.github.io/categories/code">code</a>
+        </li>
+        
+        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
+          <a href="https://cshi11.github.io/categories/photography">photography</a>
+        </li>
+        
+        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
+          <a href="https://cshi11.github.io/categories/read">read</a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+
+  </div>
+
+
+  <ul class="social-media-icons">
+
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li>
+      <a href="mailto:stancheng197@gmail.com" data-animate-hover="pulse" class="email">
+        <i class="fa fa-envelope" title="email"></i>
+        <span class="screen-reader-text">email</span>
+      </a>
+    </li>
+    
+
+    
+
+    
+
+
+    
+    <li>
+      <a href="https://github.com/cshi11" data-animate-hover="pulse" class="github" target="_blank">
+        <i class="fa fa-github" title="github"></i>
+        <span class="screen-reader-text">github</span>
+      </a>
+    </li>
+    
+
+
+    
+
+    
+
+
+  </ul></div>
+
+      </div>
+
+      <div class="container">
+        <div id="title-info" class="title-info">
+  <div id='site-title' class='site-title'>
+    
+    <a href="https://cshi11.github.io/"> 子适 Blog </a>
+    </div>
+  </div>
+  <button id="toggle-navigation" class="toggle-navigation">
+    <i class="fa fa-bars"></i>
+  </button>
+
+  <div id="menu-primary-tracks" class="menu-primary-tracks"></div>
+  <div id="menu-primary" class="menu-container menu-primary" role="navigation">
+    
+    <p class="site-description">人生天地间，忽如远行客。</p>
+    
+
+    <div class="menu">
+      <ul id="menu-primary-items" class="menu-primary-items">
+        
+        
+        <li id="menu-item" class='menu-item menu-item-type-custom menu-item-object-custom '>
+          <a href="https://cshi11.github.io/">Home</a>
+          
+        </li>
+        
+      </ul>
+    </div>
+
+  </div>
+
+      </div>
+    </header>
+
+    <div id="main" class="main" role="main">
+
+      
+  
+  
+    
+  
+  
+  <div id="loop-container" class="loop-container">
+    
+    <div class="post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-design tag-standard-2 tag-tagalicious tag-travel entry full-without-featured odd excerpt-1">
+
+      <div class='featured-image lazy lazy-bg-image'  data-background="https://cshi11.github.io/img/portfolio/pylogo.jpg">
+      </div>
+      
+        <div class="entry-meta">
+          <span class="date">05 November</span>	<span> / </span>
+
+          <span class="author">
+            <a href="https://lherman.tk" title="Posts by 子适" rel="author">子适</a>
+          </span>
+
+
+          
+          <span class="category">
+            <span> / </span>
+
+            <a href="https://cshi11.github.io/categories/code">code</a>
+          </span>
+          
+
+
+        </div>
+        <div class='entry-header'>
+          <h1 class='entry-title'> Python 基本语法</h1>
+        </div>
+        <div class="entry-container">
+          <div class="entry-content">
+            <article>
+              <h2 id="一-基本语法">一、基本语法</h2>
+
+<h3 id="1-1-输出">1.1 输出</h3>
+
+<ul>
+<li>保留格式输出</li>
+</ul>
+
+<pre><code class="language-python">print('''朝辞白帝彩云间
+千里江陵一日还''')
+</code></pre>
+
+<ul>
+<li>占位符写法</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th>占位符</th>
+<th>替换内容</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>%d</td>
+<td>整数</td>
+</tr>
+
+<tr>
+<td>%f</td>
+<td>浮点数</td>
+</tr>
+
+<tr>
+<td>%s</td>
+<td>字符串</td>
+</tr>
+
+<tr>
+<td>%x</td>
+<td>十六进制数</td>
+</tr>
+</tbody>
+</table>
+
+<pre><code class="language-python">print(&quot;My name is %s&quot; % &quot;Shi&quot;)
+</code></pre>
+
+<ul>
+<li>固定输出格式</li>
+</ul>
+
+<pre><code class="language-python">s1 = 72
+s2 = 85
+delta = (s2 - s1) / s1
+print(&quot;提升了 %.1f %%&quot; % (delta * 100))
+print(&quot;%.2f&quot; % 3.2313)
+</code></pre>
+
+<h3 id="1-2-list-和-tuple">1.2 List 和 Tuple</h3>
+
+<ul>
+<li>List —— 有序集合</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>功能</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>len(list)</td>
+<td>长度</td>
+</tr>
+
+<tr>
+<td>max(list)/min(list)</td>
+<td></td>
+</tr>
+
+<tr>
+<td>list(seq)</td>
+<td>元组转化为列表</td>
+</tr>
+
+<tr>
+<td>cmp(list1, list2)</td>
+<td>比较两个列表元素</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>功能</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>list.append(obj)</td>
+<td>末尾添加元素</td>
+</tr>
+
+<tr>
+<td>List.count(obj)</td>
+<td>统计元素次数</td>
+</tr>
+
+<tr>
+<td>List.extend(seq)</td>
+<td>末尾追加新序列</td>
+</tr>
+
+<tr>
+<td>List.index(obj)</td>
+<td>找出索引</td>
+</tr>
+
+<tr>
+<td>List.insert(index, obj)</td>
+<td>插入</td>
+</tr>
+
+<tr>
+<td>list.pop([index = 1])</td>
+<td>移除</td>
+</tr>
+
+<tr>
+<td>List.remove(obj)</td>
+<td>移除第一个匹配项</td>
+</tr>
+
+<tr>
+<td>list.reverse()</td>
+<td>反转列表元素</td>
+</tr>
+
+<tr>
+<td>list.sort(cmp=None, key=None, reverse=False</td>
+<td>排序</td>
+</tr>
+</tbody>
+</table>
+
+<pre><code class="language-python">classmates = ['bob', 'tony', 'shi', 'hally']
+// 删除元素
+classmates.pop(1)
+// 增加元素于末尾
+classmates.append('pony')
+print(classmates[0])
+// 长度
+print(len(classmates))
+// 判断元素存在
+print('pony' in classmates)
+// 遍历
+for student in classmates:
+    print(student)
+//拼接
+print([1, 2, 3] + [4, 5, 6])
+</code></pre>
+
+<ul>
+<li>List Comprehensions 列表生成</li>
+</ul>
+
+<pre><code class="language-python">L = list()	# 空列表
+L = ['']*4	# ['', '', '', '']
+</code></pre>
+
+<pre><code class="language-python">L = list(range(1, 11))
+L1 = [x * x for x in range(1, 11)]
+L2 = [x * x for x in range(1, 11) if x % 2 == 0]
+L3 = [m + n for m in 'ABC' for n in &quot;abc&quot;]	//['Aa', 'Ab', 'Ac', 'Ba', 'Bb', 'Bc', 'Ca', 'Cb', 'Cc']
+d = {'x': 'A', 'y': 'B', 'z': 'C'}
+L4 = [k + '=' + v for k, v in d.items()]	// ['x=A', 'y=B', 'z=C']
+</code></pre>
+
+<ul>
+<li>列表和字符串转化</li>
+</ul>
+
+<pre><code class="language-python">L = list(str)	# str 转 list
+s = ''.join(L)	# list 转 str
+</code></pre>
+
+<ul>
+<li>Tuple —— 元组，一旦初始化无法修改。安全，尽量使用。</li>
+</ul>
+
+<pre><code class="language-python">t = (1,)	//只含一个元素时，需要这样写
+// 下面的例子中，元组内的List的内容被改变了，但 tuple 未变，因为 List 地址不变
+tt = (1, 2, [3, 4])
+tt[2][0] = 19
+print(tt)
+</code></pre>
+
+<ul>
+<li>切片（都适用）</li>
+</ul>
+
+<pre><code class="language-python">L = ['Michael', 'Sarah', 'Tracy', 'Bob', 'Jack']
+L[0:3]
+L[-2:]	//['Bob','Jack']
+L = list(range(100))
+L[:10:2]	// 前十个数，每两个取一个
+// 字符串也适用
+'ABCDEFG'[::2]	// 'ACEG'
+</code></pre>
+
+<h3 id="1-3-dict-set">1.3 dict &amp; set</h3>
+
+<ul>
+<li>Dict —— 储存键值对</li>
+</ul>
+
+<pre><code class="language-python">d = {'mike': 97, 'bob': 87, 'tracy': 99}
+print(d['mike'])
+print(d.get('mike', -1))	// get() 方法如果key不存在，返回 none，或者可以指定返回值
+d.pop('bob')
+</code></pre>
+
+<ul>
+<li>Set —— 不重复的集合
+
+<ul>
+<li>set 中不能保存可变元素，比如 list ,可以保存 tuple</li>
+</ul></li>
+</ul>
+
+<pre><code class="language-python">s = set()	//创造一个空 set
+s = set([1,2,3])	// 需要list作为输入
+s.add(4)
+s.remove(4)
+s1 &amp; s2 	// 两个set可以做交集，并集
+// 删除一个 list 中的重复元素
+l = list(set(l))
+</code></pre>
+
+<h3 id="1-4-str">1.4 str</h3>
+
+<ul>
+<li>str 是不可变量</li>
+</ul>
+
+<pre><code class="language-python">a = 'abc'
+print(a.replace('a', 'A'))	//Abc
+print(a)	// abc
+
+</code></pre>
+
+<ul>
+<li><p>Str 相关方法</p>
+
+<ul>
+<li>判断两个字符串相等 引入operator 模块</li>
+</ul></li>
+</ul>
+
+<pre><code class="language-python">  import operator as op
+  op.eq('12','12')	// true
+  
+</code></pre>
+
+<h3 id="1-5-变量类型">1.5 变量类型</h3>
+
+<ul>
+<li>局部变量</li>
+<li>全局变量</li>
+<li>类型变量</li>
+<li>实例变量</li>
+</ul>
+
+<h3 id="1-6-基本运算">1.6 基本运算</h3>
+
+<ul>
+<li><code>/</code> 就是除法，两个<code>int</code> 相除结果也是小数。地板除用<code>//</code></li>
+<li>幂运算 <code>**</code></li>
+</ul>
+
+<h3 id="1-7-基本语法">1.7 基本语法</h3>
+
+<ul>
+<li>循环</li>
+</ul>
+
+<pre><code class="language-python">  for i in range(5):
+      ...
+  # 如果用不到 i，只是单纯的循环5次，用 _
+  for _ in range(5):
+</code></pre>
+
+<h2 id="二-函数">二、函数</h2>
+
+<h3 id="2-1-函数定义-默认参数-可变参数">2.1 函数定义 &amp; 默认参数 &amp; 可变参数</h3>
+
+<ul>
+<li>默认参数</li>
+</ul>
+
+<pre><code class="language-python">// 计算幂函数
+def power(x, n=2):
+    s = 1
+    while n &gt; 0:
+        s = s * x
+        n = n - 1
+    return s
+</code></pre>
+
+<ul>
+<li>可变参数 *</li>
+</ul>
+
+<pre><code class="language-python">// 计算任意数的和
+def calc(*numbers):
+    summ = 0
+    for x in numbers:
+        summ += x * x
+    return summ
+
+print(calc(1, 2, 3))
+lis = [1, 2, 3]
+print(calc(*lis))  # 传入list时，在前面加 *
+</code></pre>
+
+<ul>
+<li>关键字参数 **</li>
+</ul>
+
+<pre><code class="language-python">def person(name, age, **kw):
+    print('name:', name, 'age:', age, 'other:', kw)
+    
+&gt;&gt;&gt; person('Michael', 30)
+name: Michael age: 30 other: {}
+            
+&gt;&gt;&gt; person('Bob', 35, city='Beijing')
+name: Bob age: 35 other: {'city': 'Beijing'}
+&gt;&gt;&gt; person('Adam', 45, gender='M', job='Engineer')
+name: Adam age: 45 other: {'gender': 'M', 'job': 'Engineer'}
+</code></pre>
+
+<ul>
+<li>命名关键字参数</li>
+</ul>
+
+<pre><code class="language-python">// 只接受 city 和 job 作为关键字参数
+def person(name, age, *, city, job):
+    print(name, age, city, job)
+</code></pre>
+
+<h3 id="2-2-map-reduce">2.2 map &amp; reduce</h3>
+
+<ul>
+<li><code>map()</code>函数接收两个参数，一个是函数，一个是<code>Iterable</code>，<code>map</code>将传入的函数依次作用到序列的每个元素，并把结果作为新的<code>Iterator</code>返回。</li>
+</ul>
+
+<pre><code class="language-python">// 对 list 中元素平方
+&gt;&gt;&gt; def f(x):
+...     return x * x
+...
+&gt;&gt;&gt; r = map(f, [1, 2, 3, 4, 5, 6, 7, 8, 9])
+&gt;&gt;&gt; list(r)
+[1, 4, 9, 16, 25, 36, 49, 64, 81]
+</code></pre>
+
+<pre><code class="language-python">// 将数字转化为字符，str 是函数
+// 不加list 返回一个 map 对象，可以用于遍历，但不可视
+&gt;&gt;&gt; list(map(str, [1, 2, 3, 4, 5, 6, 7, 8, 9]))
+</code></pre>
+
+<pre><code class="language-python"># 元组转 list
+d = {(1,2), (3,4)}	# set 中只能装不变的对象，不能直接放入list
+d_list = list(map(list, d))
+[[1,2],[3,4]]
+
+</code></pre>
+
+<ul>
+<li><code>reduce</code>把一个函数作用在一个序列<code>[x1, x2, x3, ...]</code>上，这个函数必须接收两个参数，<code>reduce</code>把结果继续和序列的下一个元素做累积计算。</li>
+</ul>
+
+<pre><code class="language-python">from functools import reduce
+reduce(f, [x1, x2, x3, x4]) = f(f(f(x1, x2), x3), x4)
+
+</code></pre>
+
+<ul>
+<li>综合案例</li>
+</ul>
+
+<pre><code class="language-python">DIGITS = {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9}
+
+
+def str2int(s):
+    def fn(a, b):
+        return a * 10 + b
+
+    def str2num(ch):
+        return DIGITS[ch]
+
+    return reduce(fn, map(str2num, s))
+
+
+print(str2int('39201'))
+</code></pre>
+
+<h3 id="2-3-filter">2.3 filter</h3>
+
+<ul>
+<li><code>filter()</code>也接收一个函数和一个序列。和<code>map()</code>不同的是，<code>filter()</code>把传入的函数依次作用于每个元素，然后根据返回值是<code>True</code>还是<code>False</code>决定保留还是丢弃该元素。</li>
+</ul>
+
+<pre><code class="language-python">def not_empty(s):
+    return s and s.strip()
+
+list(filter(not_empty, ['A', '', 'B', None, 'C', '  ']))
+# 结果: ['A', 'B', 'C']
+</code></pre>
+
+<h3 id="2-4-sorted">2.4 sorted</h3>
+
+<pre><code class="language-python">sorted(iterable, key, reverse)
+</code></pre>
+
+<ul>
+<li>其中，<code>key</code>可以指定按照什么排序，<code>reverse = True</code>可以反向排序</li>
+</ul>
+
+<pre><code class="language-pytho">// 按照绝对值
+&gt;&gt;&gt; sorted([36, 5, -12, 9, -21], key=abs)
+[5, 9, -12, -21, 36]
+// 按照小写排序
+&gt;&gt;&gt; sorted(['bob', 'about', 'Zoo', 'Credit'], key=str.lower)
+['about', 'bob', 'Credit', 'Zoo']
+</code></pre>
+
+<h3 id="2-5-返回函数">2.5 返回函数</h3>
+
+<h3 id="2-6-匿名函数-lambda">2.6 匿名函数 lambda</h3>
+
+<pre><code class="language-python">def is_odd(n):
+    return n % 2 == 1
+
+L = list(filter(is_odd, range(1, 20)))
+L_lambda = list(filter(lambda x: x % 2 == 1, range(1, 20)))
+</code></pre>
+
+<h3 id="2-7-装饰器-decorator">2.7 装饰器 Decorator</h3>
+
+<ul>
+<li>不改变函数内部而给函数增加新功能，“装饰”一下。</li>
+</ul>
+
+<pre><code class="language-python">@log	//等价于加了一条语句 now = log(now)
+def now():
+    print('2019-8-2')
+    
+def log(func):
+    def wrapper(*args, **kw):
+        // .__name__ 方法可以拿到函数名字
+        print('call %s():' % func.__name__)
+        return func(*args, **kw)
+    return wrapper
+
+//执行
+&gt;&gt;&gt; now()
+call now():
+2015-3-25
+
+</code></pre>
+
+<h3 id="2-8-枚举-enumerate">2.8 枚举 Enumerate</h3>
+
+<ul>
+<li>遍历数据并计数</li>
+</ul>
+
+<pre><code class="language-python">my_list = ['apple', 'banana', 'grapes', 'pear']
+for c, value in enumerate(my_list, 1):	// 第二个参数决定从几开始计数
+    print(c, value)
+# 输出:
+(1, 'apple')
+(2, 'banana')
+(3, 'grapes')
+(4, 'pear')
+</code></pre>
+
+<ul>
+<li>创建包含索引的元祖列表</li>
+</ul>
+
+<pre><code class="language-python">my_list = ['apple', 'banana', 'grapes', 'pear']
+counter_list = list(enumerate(my_list, 1))
+# [(1, 'apple'), (2, 'banana'), (3, 'grapes'), (4, 'pear')]
+</code></pre>
+
+<h2 id="三-高级特性">三、 高级特性</h2>
+
+<h3 id="3-1-生成器-generator">3.1 生成器 generator</h3>
+
+<ul>
+<li>只储存算法，不存数据，需要那个数据根据算法再去计算。因此理论上可以存储无限元素。</li>
+</ul>
+
+<pre><code class="language-python"> g = (x * x for x in range(10))	// 区分列表生成器 []
+ // 取g值
+ next(g)
+ // 或者
+for n in g:
+    print(n)
+
+</code></pre>
+
+<ul>
+<li>一个函数如果包含 <code>yield</code> 关键字，它就是一个 generator</li>
+</ul>
+
+<pre><code class="language-python">// fib 数列
+def fib(max):
+    n, a, b = 0, 0, 1
+    while n &lt; max:
+        a, b = b, a + b  # 交换
+        n = n + 1
+        yield a
+    return 'done'
+
+
+print(fib(8))	//&lt;generator object fib at 0x10bc084f8&gt;
+for x in fib(8):
+    print(x)
+
+</code></pre>
+
+<h2 id="四-面向对象-oop">四、面向对象 OOP</h2>
+
+<h3 id="4-1-类和实例">4.1 类和实例</h3>
+
+<ul>
+<li>创建类和实例
+
+<ul>
+<li>类中变量命名</li>
+<li>不加下划线——普通变量，外部可以通过 .name 访问</li>
+<li>前面加单下划线——保护变量，应视作私有变量使用</li>
+<li>前面加双下划线——私有变量，仅可通过内部方法访问</li>
+<li>前后加双下划线—— <code>__init__</code>  是特殊变量，可以访问</li>
+</ul></li>
+</ul>
+
+<pre><code class="language-python">class Student(object):	// object 是该类继承的类
+     def __init__(self, name, score):        
+        self.__name = name
+        self.__score = score #变量名前加双下划线，变为私有变量
+        
+     def get_name(self):    # 私有变量仅可通过内部函数访问
+        return self.__name
+
+     def get_score(self):
+        return self.__score
+
+Bob = Student('Bob', 98)
+print('%s : %d' % (Bob.get_name(), Bob.get_score()))
+</code></pre>
+            </article>
+          </div>
+          
+      <div class='entry-meta-bottom'>
+        
+
+  <div class="entry-categories"><p><span>Categories</span>
+    
+    <a href="https://cshi11.github.io/categories/code" title="View all posts in code">code</a>
+  </p>
+</div>
+
+
+
+<div class="entry-tags"><p><span>Tags</span>
+  
+
+</p></div>	</div>
+
+	
+<div class="author-meta">
+
+  <div class="author">
+    	
+    <img alt='子适' src="https://www.gravatar.com/avatar/07513bff1ed0d47bd0daae7527a5d56f?s=100&d=identicon" class='avatar avatar-72 photo' height='72' width='72'>
+    
+    <span>
+      Written by:<a href="https://lherman.tk" title="Posts by 子适" rel="author">子适</a> </span>
+    </div>
+    <div class="bio">
+      
+      
+      <p>| CAUC 飞行器动力工程  <br>| 南航大连机务工程师 <br>| BIT 软件工程</p>
+        
+      
+	
+      
+
+    
+
+
+  
+
+
+
+<a class="email" target="_blank"
+href="mailto:stancheng197@gmail.com">
+<i class="fa fa-envelope"
+title="email icon"></i>
+</a>
+
+
+
+
+
+
+
+<a class="github" target="_blank"
+href="https://github.com/cshi11">
+<i class="fa fa-github"
+title="github icon"></i>
+</a>
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+</div>
+</div>
+
+<section id="comments" class="comments">
+  
+
+  
+
+
+
+
+</section>
+</div>
+
+ 
+
+
+
+    </div>
+
+    <footer id="site-footer" class="site-footer" role="contentinfo">
+	<h1>
+    
+    <a href=""> 子适 Blog </a>
+    
+	</h1>
+
+			
+			<p class="site-description">人生天地间，忽如远行客。</p>
+			
+
+		<div id="menu-footer" class="menu-container menu-footer" role="navigation">
+		<div class="menu">
+
+      <ul id="menu-footer-items" class="menu-footer-items">
+        
+</ul>
+
+</div>	</div>
+
+<ul class="social-media-icons">
+
+        
+
+        
+
+
+        
+
+        
+
+        
+        <li>
+        <a href="mailto:stancheng197@gmail.com"  class="email">
+            <i class="fa fa-envelope" title="email"></i>
+            <span class="screen-reader-text">email</span>
+        </a>
+        </li>
+        
+
+        
+
+        
+
+
+        
+        <li>
+        <a href="https://github.com/cshi11"  class="github" target="_blank">
+            <i class="fa fa-github" title="github"></i>
+            <span class="screen-reader-text">github</span>
+        </a>
+        </li>
+        
+
+
+        
+
+        
+
+				</ul>	<div class="design-credit">
+		
+		<p>&copy; 2018 Göran Svensson</p>
+		
+		<p>Nederburg Hugo Theme by <a href="https://appernetic.io">Appernetic</a>.</p>
+		
+		<p>A port of Tracks by Compete Themes.</p>
+		
+	</div>
+</footer>
+
+  </div>
+  <script src="https://cshi11.github.io/js/jquery.min.js"></script>
+<script src="https://cshi11.github.io/js/jquerymigrate.js"></script>
+<script src="https://cshi11.github.io/js/production.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>code on 子适 Blog</title>
+    <link>https://cshi11.github.io/categories/code/</link>
+    <description>Recent content in code on 子适 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Nov 2016 19:41:01 +0530</lastBuildDate>
+    
+	<atom:link href="https://cshi11.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python 基本语法</title>
+      <link>https://cshi11.github.io/post/python-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      
+      <guid>https://cshi11.github.io/post/python-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</guid>
+      <description>&lt;h2 id=&#34;一-基本语法&#34;&gt;一、基本语法&lt;/h2&gt;
+
+&lt;h3 id=&#34;1-1-输出&#34;&gt;1.1 输出&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;保留格式输出&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java 语法</title>
+      <link>https://cshi11.github.io/post/java-%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
+      
+      <guid>https://cshi11.github.io/post/java-%E8%AF%AD%E6%B3%95/</guid>
+      <description>&lt;h2 id=&#34;一-基础语法&#34;&gt;一、基础语法&lt;/h2&gt;
+
+&lt;h3 id=&#34;1-1-约定&#34;&gt;1.1 约定&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;类名每个单词首字母大写，文件名必须和类名匹配&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Git 使用</title>
+      <link>https://cshi11.github.io/post/git-%E4%BD%BF%E7%94%A8/</link>
+      <pubDate>Sat, 05 Nov 2016 19:57:40 +0530</pubDate>
+      
+      <guid>https://cshi11.github.io/post/git-%E4%BD%BF%E7%94%A8/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;分布式版本控制系统&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;本地-git&#34;&gt;本地 Git&lt;/h2&gt;
+
+&lt;h3 id=&#34;安装-配置&#34;&gt;安装&amp;amp;配置&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mac 使用技巧</title>
+      <link>https://cshi11.github.io/post/mac/</link>
+      <pubDate>Sat, 05 Nov 2016 19:59:22 +0530</pubDate>
+      
+      <guid>https://cshi11.github.io/post/mac/</guid>
+      <description>&lt;h2 id=&#34;快捷键&#34;&gt;快捷键&lt;/h2&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
