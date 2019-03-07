@@ -12,6 +12,26 @@
     
     
     <item>
+      <title>Spring Boot Web 学习记录</title>
+      <link>https://cshi11.github.io/post/spring-boot-web/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cshi11.github.io/post/spring-boot-web/</guid>
+      <description>&lt;p&gt;Spring Boot Web 开发&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>《深入理解Java虚拟机》读书笔记</title>
+      <link>https://cshi11.github.io/post/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cshi11.github.io/post/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;p&gt;《深入理解Java虚拟机》读书笔记&lt;/p&gt;
+
+&lt;p&gt;第二章 Java内存区域与内存溢出异常&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Python 基本语法</title>
       <link>https://cshi11.github.io/post/python-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</link>
       <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
